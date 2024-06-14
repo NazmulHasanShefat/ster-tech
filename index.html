@@ -36,32 +36,77 @@
             </div>
             <!-- end  -->
              <!-- desktop searchbox -->
-              <div class="search-desktop hidden sm:block w-96 h-10">
-                 <input type="text" class="w-full h-full px-5" placeholder="search">
+              <div class="search-desktop hidden sm:block w-[650px] h-10">
+                <div class="search-desk-box w-full h-10 bg-white rounded-sm flex justify-center items-center">
+                    <div class="search-input w-11/12 h-full">
+                        <input type="text" class="w-full h-full px-5 border-none outline-none" placeholder="search">
+                    </div>
+                    <div class="search-icon w-1/12 h-10 flex justify-center items-center rounded-lg cursor-pointer">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
               </div>
               <!-- desktop top nav menu  mobile bottom nav-->
-              <div class="search-desktop hidden sm:block w-[790px] h-20">
+              <div class="search-desktop fixed bottom-0 sm:static w-full sm:block sm:w-[790px] h-20 bg-black">
                  <div class="all-menus w-full h-full flex justify-center items-cen1er">
                     <!-- nav 1 -->
-                    <div class="munu-1 w-1/4 h-full flex justify-center items-center text-white">
-                        <div class="w-1/4 h-full icon-nav flex justify-center items-center">
-                            <i class="fa-solid fa-gift mt-2 text-hover-color"></i>
+                    <div class="munu-1 w-1/4 h-full py-2 flex flex-col sm:flex-row justify-center items-center text-white">
+                        <div class="w-full sm:w-1/4 h-max sm:h-full icon-nav flex justify-center items-center">
+                            <i class="fa-solid fa-gift mt-2 text-white sm:text-hover-color cursor-pointer"></i>
                         </div>
                         
-                        <div class="w-2/4 h-full nav-name flex items-center">
+                        <div class="w-full sm:w-2/4 h-max sm:h-full nav-name flex items-center justify-center text-center sm:text-left">
                             <div>
-                                <div class="main-name"><h1>offers</h1></div>
-                                <div class="sub-name text-text-color-2">Letest Offers</div>
+                                <div class="main-name cursor-pointer"><h1>offers</h1></div>
+                                <div class="sub-name text-text-color-2 cursor-pointer text-xs hidden sm:block">Letest Offers</div>
                             </div>
                         </div>
                     </div>
                     <!-- end -->
                      <!-- nav 2 -->
-                    <div class="munu-2 w-1/4 h-full"></div>
+                    <div class="munu-2 w-1/4 h-full flex flex-col sm:flex-row justify-center items-center">
+                        <div class="w-full sm:w-1/4 h-max sm:h-full icon-nav flex justify-center items-center">
+                            <i class="animate-pulse fa-solid fa-bolt mt-2 text-white sm:text-hover-color cursor-pointer"></i>
+                        </div>
+                        
+                        <div class="w-full sm:w-2/4 h-max sm:h-full nav-name flex items-center justify-center text-center sm:text-left">
+                            <div>
+                                <div class="main-name cursor-pointer text-white"><h1>offers</h1></div>
+                                <div class="sub-name text-text-color-2 cursor-pointer text-xs hidden sm:block">Letest Offers</div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- nav 3 -->
-                    <div class="munu-3 w-1/4 h-full"></div>
+                    <div class="munu-3 w-1/4 h-full flex sm:flex flex-col sm:flex-row justify-center items-center">
+                        <div class="w-1/4 h-max sm:h-full icon-nav flex justify-center items-center">
+                            <i class="fa-solid fa-user mt-2 text-white sm:text-hover-color cursor-pointer"></i>
+                        </div>
+                        
+                        <div class="w-3/4 h-max sm:h-full nav-name flex items-center justify-center sm:justify-start">
+                            <div>
+                                <div class="main-name text-white cursor-pointer"><h1>Acount</h1></div>
+                                <div class="sub-name text-text-color-2 cursor-pointer text-xs"><span class="transition duration-300 hover:text-hover-color hidden sm:inline-block">Register&</span> <span class=" transition duration-300 hover:text-hover-color hidden sm:inline-block">login</span></div>
+                            </div>
+                        </div>
+                    </div>
                     <!-- nav 4 -->
-                    <div class="munu-4 w-1/4 h-full"></div>
+                    <div class="munu-4 w-1/4 h-full flex justify-center items-center">
+                         <button class="transition ease-in-out delay-150 w-32 rounded-sm h-12 text-white bg-gradient-to-r from-blue-400 to-blue-600 hover:opacity-75 duration-500 hidden sm:block">PC Builder</button>
+                         <!-- mobile -->
+                         <div class="sm:hidden w-full h-full flex items-center">
+                            <div class="pc-container w-full h-max">
+                                <div class="pc-icon flex justify-center items-center">
+                                    <i class="fa-solid fa-desktop text-white"></i>
+                                </div>
+                                <div class="pc-text text-white flex justify-center items-center">
+                                    <p>pc builder</p>
+                                </div>
+                            </div>
+                         </div>
+                         <!-- end -->
+                    </div>
+                    <!-- end nav 4 -->
+                     
                  </div>
               </div>
         </div>
@@ -79,6 +124,8 @@
 
     
     </nav>
-    </header>
+</header>
+
+
 </body>
 </html>
