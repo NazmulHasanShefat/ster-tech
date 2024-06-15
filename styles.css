@@ -29,3 +29,21 @@
         width: 0;
     }
 }
+@media screen and (min-width:768px) {
+    
+    .li-desktop:hover{
+        .desktop-submenu{
+            display: block;
+        }
+    }
+    .li-sterpc:hover{
+        .ul-sterpc{
+            display: block;
+        }
+    }
+    .li-gaming-pc:hover{
+        .ul-gaming-pc{
+            display: block;
+        }
+    }
+}

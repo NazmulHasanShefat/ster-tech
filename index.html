@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ster tech</title>
 </head>
-<body>
+<body class="bg-slate-100">
     <header class="w-full h-max">
         <nav class="w-full h-14 sm:h-20 bg-primary-color sm:flex justify-center items-center">
         <!-- desktop nav -->
         <div class="nav-continer w-full h-14 flex justify-between items-center py-3">
-            <!-- menubar  -->
+            <!-- humberger  -->
             <div class="menu-icon h-20 w-24 flex justify-center items-center sm:hidden">
                 <i class="fa-solid fa-bars text-white"></i>
             </div>
@@ -112,20 +112,55 @@
         </div>
         <!-- end desktiop nav -->
 
-
         <!-- mobile searchbox -->
-        <div class="search-mobile w-full h-10 flex justify-center items-center sm:hidden">
-            <div class="search w-11/12 h-8 border border-black ml-2">
+         <!-- nend flex -->
+        <div class="search-mobile w-full h-10 justify-center items-center relative z-10 hidden sm:hidden">
+            <div class="search w-11/12 h-8 border border-black ml-2 flex justify-center items-center bg-white">
                 <input type="text" class="w-full h-full outline-none border-none px-5" placeholder="Search..">
-            <i class="fa-solid fa-magnifying-glass text-white"></i>
+                 <i class="fa-solid fa-magnifying-glass pr-5"></i>
             </div>
         </div>
         <!-- end  -->
 
     
     </nav>
+    <!-- nav 2 -->
+    <nav class="nav-2 w-3/5 sm:w-full h-max sm:h-12 bg-white border-r-2 border-slate-300 sm:border-b-2 sm:border-slate-200 sm:block">
+      <ul class="ul-nav-2 h-max w-full sm:px-5">
+        <!-- main munu desktiop -->
+        <li class="li-desktop sm:inline-block relative h-max"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 py-1 sm:py-3">Desktop</a>
+            <!-- submenu 1-->
+          <ul class="desktop-submenu w-full sm:w-[200px] h-max sm:border-t-2 sm:border-hover-color relative sm:absolute bg-white sm:drop-shadow-2xl left-0 hidden">
+            <li class="block"><a href="#" class="block px-4 text-sm sm:mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full">Desktop Offres</a></li>
+            <li class="li-sterpc block"><a href="#" class="px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full flex justify-between"><p>Ster PC</p><i class="fa-solid fa-arrow-right text-hover-color opacity-75"></i></a>
+            <!-- ster pc sub menu -->
+             <ul class="ul-sterpc w-full h-max relative sm:absolute sm:left-48 bg-white sm:top-10 hidden">
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">Intel PC</a></li>
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">Ryzen PC</a></li>
+             </ul>
+            </li>
+            <li class="li-gaming-pc block relative"><a href="#" class="flex justify-between items-center px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full"><p>Gaming PC</p><i class="fa-solid fa-arrow-right text-hover-color opacity-75"></i></a>
+              <!-- ster pc sub menu -->
+              <ul class="ul-gaming-pc w-full h-max relative sm:absolute sm:left-48 bg-white sm:top-0 hidden">
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">Intel PC</a></li>
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">Ryzen PC</a></li>
+             </ul>
+            </li>
+            <li class="block"><a href="#" class="block px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full">All in one PC</a></li>
+            <li class="block"><a href="#" class="block px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full">brand PC</a></li>
+            <li class="block"><a href="#" class="block px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full">Portable mini PC</a></li>
+          </ul>
+          <!-- end -->
+        </li>
+        <li class="sm:inline-block"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">laptop</a></li>
+        <li class="sm:inline-block"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">Component</a></li>
+        <li class="sm:inline-block"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">Component</a></li>
+      </ul>
+    </nav>
 </header>
- <button class="mybutton w-[50px] h-[50px] rounded-lg">go home</button>
 
+
+    
+   <script src="./script.js"></script>
 </body>
 </html>
