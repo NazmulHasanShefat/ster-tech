@@ -125,12 +125,12 @@
     
     </nav>
     <!-- nav 2 -->
-    <nav class="nav-2 w-3/5 sm:w-full h-max sm:h-12 bg-white border-r-2 border-slate-300 sm:border-b-2 sm:border-slate-200 sm:block">
+    <nav class="nav-2 w-3/5 sm:w-full h-max overflow-y-scroll sm:overflow-visible sm:h-12 bg-white border-r-2 border-slate-300 sm:border-b-2 sm:border-slate-200 sm:block">
       <ul class="ul-nav-2 h-max w-full sm:px-5">
         <!-- main munu desktiop -->
         <li class="li-desktop sm:inline-block relative h-max"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 py-1 sm:py-3">Desktop</a>
             <!-- submenu 1-->
-          <ul class="desktop-submenu w-full sm:w-[200px] h-max sm:border-t-2 sm:border-hover-color relative sm:absolute bg-white sm:drop-shadow-2xl left-0 hidden">
+          <ul class="desktop-submenu w-full sm:w-[200px] h-max sm:border-t-2 sm:border-hover-color relative sm:absolute bg-white sm:drop-shadow-2xl left-0 pb-2 hidden">
             <li class="block"><a href="#" class="block px-4 text-sm sm:mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full">Desktop Offres</a></li>
             <li class="li-sterpc block"><a href="#" class="px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full flex justify-between"><p>Ster PC</p><i class="fa-solid fa-arrow-right text-hover-color opacity-75"></i></a>
             <!-- ster pc sub menu -->
@@ -170,12 +170,51 @@
                 <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">WALTON</a></li>
              </ul>
             </li>
-            <li class="block"><a href="#" class="block px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full">Portable mini PC</a></li>
+            <li class="li-portable-pc block relative"><a href="#" class="flex justify-between items-center px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full"><p>Portable mini PC</p><i class="fa-solid fa-arrow-right text-hover-color opacity-75"></i></a>
+            <!-- brand pc sub menu -->
+            <ul class="ul-portable-pc w-full h-max relative sm:absolute sm:left-48 bg-white sm:top-0 hidden">
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">Dell</a></li>
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">MSI</a></li>
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">HP</a></li>
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">ASUS</a></li>
+                <li class="block"><a href="#" class="block px-4 sm:px-2 py-0.5 hover:bg-hover-color hover:text-white text-sm">LENOVO</a></li>
+              
+             </ul>
+            </li>
+            <li class="li-portable-pc block relative"><a href="#" class="flex justify-between items-center px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full"><p>Apple mac mini</p></a></li>
+            <li class="li-portable-pc block relative"><a href="#" class="flex justify-between items-center px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full"><p>Apple iMac</p></a></li>
+            <li class="li-portable-pc block relative"><a href="#" class="flex justify-between items-center px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full"><p>Apple mac Studio</p></a></li>
+            <li class="li-portable-pc block relative"><a href="#" class="flex justify-between items-center px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full"><p>Apple mac pro</p></a></li>
+            <li class="li-portable-pc block relative"><a href="#" class="flex justify-between items-center px-4 text-sm mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full hover:underline"><p>See all pc</p></a></li>
+            
+            
           </ul>
           <!-- submenu 1 end -->
         </li>
-        <li class="sm:inline-block"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">laptop</a></li>
-        <li class="sm:inline-block"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">Component</a></li>
+        <!-- main list 2  -->
+        <li class="sm:inline-block relative"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">laptop</a>
+            <!-- laptop submenu -->
+         <ul class="w-full sm:w-[150px] h-max py-3 bg-white shadow-xl border-t-2 border-hover-color relative sm:absolute">
+            <!-- submenu 1 -->
+            <li class="block relative"><a href="#" class="flex justify-between items-center w-full text-sm py-0.5 px-2 hover:bg-hover-color hover:text-white"><p>All laptop</p><i class="fa-solid fa-arrow-right hover:text-white"></i></a>
+                <!-- all laptop sub -->
+             <ul class="w-full h-max relative sm:absolute top-0 sm:left-[150px] bg-white">
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">Lenovo</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">msi</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">HP</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">DELL</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">ASUS</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">WALTON</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">acer</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">mac book</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">infinix</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">Microsoft</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">Gigabyte</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white px-2">Xiaomi</a></li>
+             </ul>
+            </li>
+         </ul>
+        </li>
         <li class="sm:inline-block"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">Component</a></li>
       </ul>
     </nav>
