@@ -61,4 +61,39 @@
             display: block;
         }
     }
+    .li-laptop:hover{
+        .ul-laptop{
+            display: block;
+        }
+    }
+    .li-all-laptop:hover{
+        .ul-all-laptop{
+            display: block;
+        }
+    }
+    .li-gaming-laptop:hover{
+        .ul-gaming-laptop{
+            display: block;
+        }
+    }
+    .li-ultrabook:hover{
+        .ul-ultrabook{
+            display: block;
+        }
+    }
+    .li-ultrabook:hover{
+        .ul-ultrabook{
+            display: block;
+        }
+    }
+    .li-laptop-bag:hover{
+        .ul-laptop-bag{
+            display: block;
+        }
+    }
+    .li-laptop-acsosoris:hover{
+        .ul-laptop-acsosoris{
+            display: block;
+        }
+    }
 }

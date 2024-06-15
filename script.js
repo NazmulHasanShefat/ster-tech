@@ -43,3 +43,38 @@ li_brand.addEventListener("click",()=>{
 li_portable.addEventListener("click",()=>{
     ul_portable.classList.toggle("hidden");
 })
+// for laptop
+let li_laptop = document.querySelector(".li-laptop a");
+let ul_laptop = document.querySelector(".ul-laptop");
+
+let li_all_laptop = document.querySelector(".li-all-laptop");
+let ul_all_laptop = document.querySelector(".ul-all-laptop");
+let li_ultrabook = document.querySelector(".li-ultrabook");
+let ul_ultrabook = document.querySelector(".ul-ultrabook");
+let li_laptop_bag = document.querySelector(".li-laptop-bag");
+let ul_laptop_bag = document.querySelector(".ul-laptop-bag");
+
+let li_laptop_acsosoris = document.querySelector(".li-laptop-acsosoris");
+let ul_laptop_acsosori = document.querySelector(".ul-laptop-acsosoris");
+
+let li_gaming_laptop = document.querySelector(".li-gaming-laptop");
+let ul_gaming_laptop = document.querySelector(".ul-gaming-laptop");
+
+li_laptop.addEventListener("click",()=>{
+    ul_laptop.classList.toggle("hidden");
+})
+li_gaming_laptop.addEventListener("click",()=>{
+    ul_gaming_laptop.classList.toggle("hidden");
+})
+li_all_laptop.addEventListener("click",()=>{
+    ul_all_laptop.classList.toggle("hidden");
+})
+li_ultrabook.addEventListener("click",()=>{
+    ul_ultrabook.classList.toggle("hidden");
+})
+li_laptop_acsosoris.addEventListener("click",()=>{
+    ul_laptop_acsosori.classList.toggle("hidden");
+})
+li_laptop_bag.addEventListener("click",()=>{
+    ul_laptop_bag.classList.toggle("hidden");
+})
