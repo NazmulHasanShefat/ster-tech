@@ -96,4 +96,10 @@
             display: block;
         }
     }
+    /* component */
+    .li-component:hover{
+        .ul-component{
+            display: block;
+        }
+    }
 }
