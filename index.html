@@ -47,7 +47,7 @@
                 </div>
               </div>
               <!-- desktop top nav menu  mobile bottom nav-->
-              <div class="search-desktop fixed bottom-0 sm:static w-full sm:block sm:w-[790px] h-20 bg-black">
+              <div class="search-desktop fixed bottom-0 sm:static w-full sm:block sm:w-[790px] h-20 bg-black z-10">
                  <div class="all-menus w-full h-full flex justify-center items-cen1er">
                     <!-- nav 1 -->
                     <div class="munu-1 w-1/4 h-full py-2 flex flex-col sm:flex-row justify-center items-center text-white">
@@ -125,7 +125,8 @@
     
     </nav>
     <!-- nav 2 -->
-    <nav class="nav-2 w-3/5 sm:w-full h-screen overflow-y-scroll sm:overflow-visible sm:h-12 bg-white border-r-2 border-slate-300 sm:border-b-2 sm:border-slate-200 sm:block">
+    <nav class="nav-2 w-3/5 sm:w-full h-screen overflow-y-scroll sm:overflow-visible sm:h-12 bg-white border-r-2
+    border-slate-300 sm:border-b-2 sm:border-slate-200 sm:block">
       <ul class="ul-nav-2 h-max w-full sm:px-5">
         <!-- main munu desktiop -->
         <li class="li-desktop sm:inline-block relative h-max"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 py-1 sm:py-3">Desktop</a>
@@ -195,7 +196,7 @@
         <!-- main list 2  -->
         <li class="li-laptop sm:inline-block relative"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">laptop</a>
             <!-- laptop submenu -->
-         <ul class="ul-laptop w-full sm:w-[200px] h-max py-3 bg-white shadow-xl border-t-2 border-hover-color relative sm:absolute hidden">
+         <ul class="ul-laptop w-full sm:w-[200px] h-max sm:py-3 bg-white shadow-xl sm:border-t-2 sm:border-hover-color relative sm:absolute hidden">
             <!-- submenu 1 -->
             <li class="li-all-laptop block relative"><a href="#" class="flex justify-between items-center w-full text-sm py-0.5 px-2 hover:bg-hover-color hover:text-white"><p>All laptop</p><i class="fa-solid fa-arrow-right text-hover-color hover:text-white"></i></a>
                 <!-- all laptop sub -->
@@ -271,13 +272,71 @@
         </li>
        
         <!-- end 1st -->
+         <!-- component -->
         <li class="li-component sm:inline-block relative"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">Component</a>
-        <ul class="ul-component w-[200px] h-max bg-white relative sm:absolute border-t-2 border-hover-color text-sm hidden">
-            <li class="block"><a href="#" class="flex px-5 py-0.5 hover:bg-hover-color hover:text-white"><p>Prosesor</p> <i class="fa-solid fa-arrow-right text-hover-color hover:text-white"></i></a>
-            <ul ></ul>
+        <ul class="ul-component w-[200px] h-max bg-white relative sm:absolute sm:border-t-2 sm:border-hover-color text-sm hidden">
+            <li class="relative li-prosesor block"><a href="#" class="flex justify-between px-5 py-0.5 hover:bg-hover-color hover:text-white"><p>Prosesor</p> <i class="fa-solid fa-arrow-right text-hover-color hover:text-white"></i></a>
+            <ul class="ul-prosesor w-full bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white py-0.5 px-5 sm:px-2">intel prosesor</a></li>
+                <li class="block"><a href="#" class="block hover:bg-hover-color hover:text-white py-0.5 px-5 sm:px-2">AMD prosesor</a></li>
+            </ul>
             </li>
-        </ul>
+
+            <li class="li-cooler block relative"><a href="#" class="flex justify-between px-5 py-0.5 hover:bg-hover-color hover:text-white"><p>CPU Cooler</p> <i class="fa-solid fa-arrow-right text-hover-color hover:text-white"></i></a>
+            <ul class="ul-cooler sm:w-[400px] bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Antec</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">ASUS</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Gamdias</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Deepcool</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Xtreme</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">1STPLAYER</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Lian Li</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Xigmatek</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">TEAM</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">AMD</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Corsair</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Value-Top</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Gigabyte</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">PCcooler</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">NZXT</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Power Train</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Thermalright</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">ARCTIC</a></li>
+                    </div>
+                    <div class="sm:flex justify-between w-full">
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Thermaltake</a></li>
+                        <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Cooler Master</a></li>
+                    </div>
+                 
+               </ul>
+            </li>
+            <li class="li_water block relative"><a href="#" class="w-full flex justify-between items-center hover:bg-hover-color hover:text-white px-5 py-0.5 text-sm"><p>Water / Liquid Cooling</p><i class="fa-solid fa-arrow-right text-hover-color"></i></a>
+            <ul class="ul_water w-[200px] relative sm:absolute top-0 sm:left-[200px] bg-white">
+                <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">EKWB</a></li>
+                <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Lian Li</a></li>
+            </ul>
+            </li>
+
+         </ul>
         </li>
+        <!-- end component -->
       </ul>
     </nav>
 </header>

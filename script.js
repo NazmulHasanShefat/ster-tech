@@ -78,3 +78,26 @@ li_laptop_acsosoris.addEventListener("click",()=>{
 li_laptop_bag.addEventListener("click",()=>{
     ul_laptop_bag.classList.toggle("hidden");
 })
+// for component
+const li_component = document.querySelector(".li-component a");
+const ul_component = document.querySelector(".ul-component");
+
+const li_prosesor = document.querySelector(".li-prosesor a");
+const ul_prosesor = document.querySelector(".ul-prosesor");
+const li_cooler = document.querySelector(".li-cooler");
+const ul_cooler = document.querySelector(".ul-cooler");
+const li_water = document.querySelector(".li_water");
+const ul_water = document.querySelector(".ul_water");
+
+li_component.addEventListener("click",()=>{
+    ul_component.classList.toggle("hidden");
+})
+li_prosesor.addEventListener("click",()=>{
+    ul_prosesor.classList.toggle("hidden");
+})
+li_cooler.addEventListener("click",()=>{
+    ul_cooler.classList.toggle("hidden");
+})
+li_water.addEventListener("click",()=>{
+    ul_water.classList.toggle("hidden");
+})

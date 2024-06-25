@@ -102,4 +102,19 @@
             display: block;
         }
     }
+    .li-prosesor:hover{
+        .ul-prosesor{
+          display: block;
+        }
+    }
+    .li-cooler:hover{
+        .ul-cooler{
+          display: block;
+        }
+    }
+    .li_water:hover{
+        .ul_water{
+          display: block;
+        }
+    }
 }
