@@ -117,4 +117,14 @@
           display: block;
         }
     }
+    .li_motherbord:hover{
+        .ul_motherbord{
+          display: block;
+        }
+    }
+    .li_graphics:hover{
+        .ul_griphics{
+          display: block;
+        }
+    }
 }

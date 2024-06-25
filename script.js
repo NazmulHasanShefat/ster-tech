@@ -88,6 +88,10 @@ const li_cooler = document.querySelector(".li-cooler");
 const ul_cooler = document.querySelector(".ul-cooler");
 const li_water = document.querySelector(".li_water");
 const ul_water = document.querySelector(".ul_water");
+const li_motherbord = document.querySelector(".li_motherbord");
+const ul_motherbord = document.querySelector(".ul_motherbord");
+const li_graphics = document.querySelector(".li_graphics");
+const ul_graphics = document.querySelector(".ul_griphics");
 
 li_component.addEventListener("click",()=>{
     ul_component.classList.toggle("hidden");
@@ -99,5 +103,11 @@ li_cooler.addEventListener("click",()=>{
     ul_cooler.classList.toggle("hidden");
 })
 li_water.addEventListener("click",()=>{
-    ul_water.classList.toggle("hidden");
+     ul_water.classList.toggle("hidden");
+})
+li_motherbord.addEventListener("click",()=>{
+    ul_motherbord.classList.toggle("hidden");
+})
+li_graphics.addEventListener("click",()=>{
+    ul_graphics.classList.toggle("hidden");
 })
