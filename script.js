@@ -22,7 +22,7 @@ let ul_portable = document.querySelector(".ul-portable-pc");
 
 // humberger
 humberger.addEventListener("click",()=>{
-    main_menu.classList.toggle("hidden")
+    main_menu.classList.toggle("hidden");
 })
 // list toggle 
 liDesktop.addEventListener("click",()=>{
@@ -92,6 +92,12 @@ const li_motherbord = document.querySelector(".li_motherbord");
 const ul_motherbord = document.querySelector(".ul_motherbord");
 const li_graphics = document.querySelector(".li_graphics");
 const ul_graphics = document.querySelector(".ul_griphics");
+const li_ram_desk = document.querySelector(".li_ram_desk");
+const ul_ram_desk = document.querySelector(".ul_ram_desk");
+const li_ram_laptop = document.querySelector(".li_ram_laptop");
+const ul_ram_laptop = document.querySelector(".ul_ram_laptop");
+const li_power_supply = document.querySelector(".li_power_supply");
+const ul_power_supply = document.querySelector(".ul_power_supply");
 
 li_component.addEventListener("click",()=>{
     ul_component.classList.toggle("hidden");
@@ -110,4 +116,13 @@ li_motherbord.addEventListener("click",()=>{
 })
 li_graphics.addEventListener("click",()=>{
     ul_graphics.classList.toggle("hidden");
+})
+li_ram_desk.addEventListener("click",()=>{
+    ul_ram_desk.classList.toggle("hidden");
+})
+li_ram_laptop.addEventListener("click",()=>{
+    ul_ram_laptop.classList.toggle("hidden");
+})
+li_power_supply.addEventListener("click",()=>{
+    ul_power_supply.classList.toggle("hidden");
 })
