@@ -129,7 +129,12 @@
     border-slate-300 sm:border-b-2 sm:border-slate-200 sm:block relative z-50">
       <ul class="ul-nav-2 h-max w-full sm:px-5">
         <!-- main munu desktiop -->
-        <li class="li-desktop sm:inline-block relative h-max"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 py-1 sm:py-3">Desktop</a>
+        <li class="li-desktop sm:inline-block relative"><a href="#" class="w-full flex justify-between items-center hover:text-hover-color text-sm font-semibold px-1.5 py-1 sm:py-3">
+            <p>Desktop</p>
+            <div class="sm:hidden">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
             <!-- submenu 1-->
           <ul class="desktop-submenu w-full sm:w-[200px] h-max sm:border-t-2 sm:border-hover-color relative sm:absolute bg-white sm:drop-shadow-2xl left-0 pb-2 hidden">
             <li class="block"><a href="#" class="block px-4 text-sm sm:mt-2 py-0.5 hover:bg-hover-color hover:text-white w-full">Desktop Offres</a></li>
@@ -194,7 +199,12 @@
         </li>
 
         <!-- main list 2  -->
-        <li class="li-laptop sm:inline-block relative"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">laptop</a>
+        <li class="li-laptop sm:inline-block relative"><a href="#" class=" w-full flex justify-between items-center hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">
+            <p>Laptop</p>
+            <div class="sm:hidden">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
             <!-- laptop submenu -->
          <ul class="ul-laptop w-full sm:w-[200px] h-max sm:py-3 bg-white shadow-xl sm:border-t-2 sm:border-hover-color relative sm:absolute hidden">
             <!-- submenu 1 -->
@@ -273,7 +283,12 @@
        
         <!-- end 1st -->
          <!-- component -->
-        <li class="li-component sm:inline-block relative"><a href="#" class="block hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">Component</a>
+        <li class="li-component sm:inline-block relative"><a href="#" class="w-full flex justify-between items-center hover:text-hover-color text-sm font-semibold px-1.5 sm:py-3 py-1">
+            <p>Component</p>
+            <div class="sm:hidden">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </a>
         <ul class="ul-component w-[200px] h-max bg-white relative sm:absolute sm:border-t-2 sm:border-hover-color text-sm hidden">
             <li class="relative li-prosesor block"><a href="#" class="flex justify-between px-5 py-0.5 hover:bg-hover-color hover:text-white"><p>Prosesor</p> <i class="fa-solid fa-arrow-right text-hover-color hover:text-white"></i></a>
             <ul class="ul-prosesor w-full bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
@@ -457,9 +472,9 @@
            </ul>
           </li>
            
-            <li class="group li_power_supply block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm"><p>Hard Disk Drive</p><i class="fa-solid fa-arrow-right text-hover-color hidden sm:block"></i>
+            <li class="group li_Harddisk block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm"><p>Hard Disk Drive</p><i class="fa-solid fa-arrow-right text-hover-color hidden sm:block"></i>
             </a>
-            <ul class="sm:group-hover:block ul_power_supply sm:w-[400px] bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
+            <ul class="sm:group-hover:block ul_Harddisk sm:w-[400px] bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
                 <div class="sm:flex justify-between w-full">
                     <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Antec</a></li>
                     <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MSI</a></li>
@@ -504,9 +519,9 @@
            </ul>
             </li>
 
-            <li class="group li_power_supply block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm"><p>Portable Hard Disk Drive</p><i class="fa-solid fa-arrow-right text-hover-color hidden sm:block"></i>
+            <li class="group li_Portable_HDD block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm"><p>Portable Hard Disk Drive</p><i class="fa-solid fa-arrow-right text-hover-color hidden sm:block"></i>
             </a>
-            <ul class="sm:group-hover:block ul_ram_laptop w-[200px] bg-white sm:absolute relative top-0 sm:left-[200px] hidden">
+            <ul class="sm:group-hover:block ul_Portable_HDD w-[200px] bg-white sm:absolute relative top-0 sm:left-[200px] hidden">
                 <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm">Toshiba</a></li>
                 <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm">ADATA</a></li>
                 <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm">Transcend</a></li>
@@ -516,9 +531,9 @@
             </ul>
             </li>
 
-            <li class="group li_power_supply block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm"><p>SSD</p><i class="fa-solid fa-arrow-right text-hover-color hidden sm:block"></i>
+            <li class="group li_SSD block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm"><p>SSD</p><i class="fa-solid fa-arrow-right text-hover-color hidden sm:block"></i>
             </a>
-            <ul class="sm:group-hover:block ul_power_supply sm:w-[400px] bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
+            <ul class="sm:group-hover:block ul_SSD sm:w-[400px] bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
                 <div class="sm:flex justify-between w-full">
                     <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Antec</a></li>
                     <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MSI</a></li>
@@ -560,12 +575,376 @@
                     <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Cooler Master</a></li>
                 </div>
              
-           </ul>
+             </ul>
             </li>
+
+            <li class="group block relative li_Portable_SSD"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white">
+                <p>Portable ssd</p>
+                <div class="arrow_icon hidden sm:block">
+                    <i class="fa-solid fa-arrow-right text-hover-color group-hover:text-white"></i>
+                </div>
+                <div class="arrow_icon sm:hidden">
+                    <i class="fa-solid fa-plus plue_Portable_SSD"></i>
+                </div>
+            </a>
+            <ul class="sm:group-hover:block ul_Portable_SSD w-[200px] bg-white relative sm:absolute top-0 sm:left-[200px] hidden">
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Sandisk</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Samsung</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">TEAM</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Teutons</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Adata</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Transcend</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Transcend</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Corsair</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Seagate</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Silicon Power</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Asus</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white">Lexar</a></li>
+            </ul>
+            </li>
+
+            <li class="group block relative li_casing"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white">
+                <p>Casing</p>
+                <div class="arrow_icon hidden sm:block">
+                    <i class="fa-solid fa-arrow-right text-hover-color group-hover:text-white"></i>
+                </div>
+                <div class="arrow_icon sm:hidden">
+                    <i class="fa-solid fa-plus plue_Portable_SSD"></i>
+                </div>
+            </a>
+            <ul class="sm:group-hover:block ul_casing sm:w-[400px] bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Antec</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Thermaltake</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Gamdias</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Lian Li</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Deepcool</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Xigmatek</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MaxGreen</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Montech</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Corsair</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Power Train</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">FSP</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Asus</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Revenger</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MSI</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MSI</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">OVO</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Gigabyte</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">1STPLAYER</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">1STPLAYER</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Cooler Master</a></li>
+                </div>
+             </ul>
+            </li>
+            
+            <li class="group block relative li_casing_cooler"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white">
+                <p>Casing Cooler</p>
+                <div class="arrow_icon hidden sm:block">
+                    <i class="fa-solid fa-arrow-right text-hover-color group-hover:text-white"></i>
+                </div>
+                <div class="arrow_icon sm:hidden">
+                    <i class="fa-solid fa-plus plue_Portable_SSD"></i>
+                </div>
+            </a>
+            <ul class="sm:group-hover:block ul_casing_cooler sm:w-[400px] bg-white relative sm:absolute sm:left-[200px] top-0 text-sm hidden">
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Antec</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Thermaltake</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Gamdias</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Lian Li</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Deepcool</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Xigmatek</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MaxGreen</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Montech</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Corsair</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Power Train</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">FSP</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Asus</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Revenger</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MSI</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">MSI</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">OVO</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Gigabyte</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">1STPLAYER</a></li>
+                </div>
+                <div class="sm:flex justify-between w-full">
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">1STPLAYER</a></li>
+                    <li class="inline-block w-[200px]"><a href="#" class="block hover:bg-hover-color hover:text-white py-1 px-5 sm:px-2">Cooler Master</a></li>
+                </div>
+             </ul>
+            </li>
+
+            <li class="group li_optical_driver block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm"><p>Optical Disk Drive</p><i class="fa-solid fa-arrow-right text-hover-color hidden sm:block"></i>
+            </a>
+            <ul class="sm:group-hover:block ul_optical_driver w-[200px] sm:w-[240px] bg-white sm:absolute relative top-0 sm:left-[200px] hidden">
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm">External Optical Disk Drive</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm">Internal Optical Disk Drive</a></li>
+            </ul>
+            </li>
+
+            <li class="block"><a href="#" class="block px-5 py-1 hover:text-white hover:bg-hover-color">Vertical Graphics Card Holder</a></li>
+            
+            <li class="block"><a href="#" class="block px-5 py-1 hover:text-white hover:underline hover:bg-hover-color">Show All Component</a></li>
 
          </ul>
         </li>
         <!-- end component -->
+        
+        <!-- monitor -->
+        <li class="group sm:inline-block li_monitor relative">
+            <a href="#" class="w-full flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm  hover:text-hover-color">
+                <p>Monitor</p>
+                <div class="sm:hidden">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <ul class="ul_monitor sm:group-hover:block sm:w-[400px] text-sm font-semibold w-[200px] bg-white sm:absolute relative border-2 border-t-hover-color hidden">
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Walton</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">MSI</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">XIAOMI</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Acer</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Hikvision</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">LG</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Asus</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Univision</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Viewsonic</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Uniview</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">HP</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">ThundeRobot</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Dell</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">TrendSonic</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Samsung</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">PC Power</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">BenQ</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Cooler Master</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Corsair</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Lenovo</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">GIGABYTE</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Gaming Monitor</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">HUAWEI</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Curved Monitor</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">NPC</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Touch Monitor</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">PHILIPS</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">4K Monitor</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Value-Top</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Monitor Arm</a></li>
+                </div>
+                <div class="w-full sm:flex justify-between items-center">
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Dahua</a></li>
+                    <li class="w-2/4 "><a href="#" class="block py-1 px-5 hover:bg-hover-color hover:text-white">Show All Monitor</a></li>
+                </div>
+             
+            </ul>
+        </li>
+        <!-- end monitor -->
+       
+        <!-- UPS -->
+        <li class="group sm:inline-block li_UPS relative">
+            <a href="#" class="flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm hover:text-hover-color">
+                <p>UPS</p>
+                <div class="sm:hidden">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <ul class="ul_UPS border-2 border-t-hover-color sm:group-hover:block ul_Portable_HDD w-[200px] bg-white sm:absolute relative hidden">
+                <li class="block"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">
+                    <p>Online UPS</p>
+                    <!-- arrow icon -->
+                    <div class="arrow hidden sm:block">
+                        <i class="fa-solid fa-arrow-right text-hover-color group-hover:text-white"></i>
+                    </div>
+                    <div class="arrow sm:hidden">
+                        <i class="fa-solid fa-plus text-hover-color group-hover:text-white"></i>
+                    </div>
+                </a>
+                </li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Offine UPS</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Mini UPS</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">UPS Battery</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Voltage Stabilizer</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">IPS</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Show All UPS</a></li>
+            </ul>
+        </li>
+        <!-- end ups -->
+        <!-- Mobile -->
+        <li class="group sm:inline-block li_phone relative">
+            <a href="#" class="flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm hover:text-hover-color">
+                <p>Phones</p>
+                <div class="sm:hidden">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <ul class="border-2 border-t-hover-color sm:group-hover:block ul_phone w-[200px] bg-white sm:absolute relative hidden">
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">Online UPS</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Apple</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HONOR</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Motorola</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Asus</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">One Plus</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">OPPO</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Vivo</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Realmi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Infinix</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Xiaomi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Nokia</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">TCL</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">ZTE</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">benco</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HALLO</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">TECNO</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Mobile Accosoris</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Show All Phone</a></li>
+            </ul>
+        </li>
+        <!-- end Mobile -->
+      
+        <!-- Tablet -->
+        <li class="group sm:inline-block li_tablet relative">
+            <a href="#" class="w-full flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm hover:text-hover-color">
+                <p>tablet</p>
+                <div class="sm:hidden">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <ul class="border-t-2 border-t-hover-color sm:group-hover:block ul_tablet w-[200px] bg-white sm:absolute relative hidden">
+                <li class="group block relative"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">Graphics tablet</a>
+                <ul class="group-hover:block bg-red-300 ul-graphics_tablet w-[200px] relative sm:absolute left-[200px] top-0">
+                    <li class="block"><a href="#" class="block px-4 py-1 text-sm font-semibold hover:text-white hover:bg-hover-color">samglaung</a></li>
+                </ul>
+                </li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">i Pad</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Lenovo</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Samsung</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HONOR</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Realmi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Xiaomi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Walton</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HUAWEI</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Amazon</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Google</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Stylus</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Show All Tablet</a></li>
+            </ul>
+        </li>
+        <!-- end tablet -->
+      
+        <!-- Office Equipment -->
+        <li class="group sm:inline-block li_tablet relative">
+            <a href="#" class="w-full flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm hover:text-hover-color">
+                <p>Office Equipment</p>
+                <div class="sm:hidden">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <ul class="border-2 border-t-hover-color sm:group-hover:block ul_tablet w-[200px] bg-white sm:absolute relative hidden">
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">Graphics tablet</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">i Pad</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Lenovo</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Samsung</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HONOR</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Realmi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Xiaomi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Walton</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HUAWEI</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Amazon</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Google</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Stylus</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Show All Tablet</a></li>
+            </ul>
+        </li>
+        <!-- end Office Equipment -->
+        <!-- Camra -->
+        <li class="group sm:inline-block li_tablet relative">
+            <a href="#" class="w-full flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm hover:text-hover-color">
+                <p>Camera</p>
+                <div class="sm:hidden">
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+            </a>
+            <ul class="border-2 border-t-hover-color sm:group-hover:block ul_tablet w-[200px] bg-white sm:absolute relative hidden">
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">Graphics tablet</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">i Pad</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Lenovo</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Samsung</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HONOR</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Realmi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Xiaomi</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Walton</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HUAWEI</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Amazon</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Google</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Stylus</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Show All Tablet</a></li>
+            </ul>
+        </li>
+        <!-- end camra -->
+
       </ul>
     </nav>
 </header>
