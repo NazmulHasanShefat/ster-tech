@@ -1,3 +1,13 @@
+ 
+// mobile search
+let search_icon_mobile = document.querySelector(".search-icon_mobile");
+let search_box_mobile = document.querySelector(".search-mobile");
+ 
+search_icon_mobile.addEventListener("click",()=>{
+    search_box_mobile.classList.toggle("hidden");
+})
+
+
  // If media query matches
 let humberger = document.querySelector(".menu-icon");
 let main_menu = document.querySelector(".nav-2");
@@ -170,7 +180,7 @@ const li_UPS = document.querySelector(".li_UPS");
 const ul_UPS = document.querySelector(".ul_UPS");
 const li_phone = document.querySelector(".li_phone");
 const ul_phone = document.querySelector(".ul_phone");
-const li_tablet = document.querySelector(".li_tablet");
+const li_tablet = document.querySelector(".li_tablet a");
 const ul_tablet = document.querySelector(".ul_tablet");
 
 li_monitor.addEventListener("click",()=>{

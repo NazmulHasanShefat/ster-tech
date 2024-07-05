@@ -127,4 +127,16 @@
           display: block;
         }
     }
+    /* ups  */
+    .li_UPS:hover{
+        .ul_UPS{
+            display: block;
+        }
+    }
+    /* tablet */
+    .li_tablet:hover{
+        .ul_tablet{
+            display: block;
+        }
+    }
 }

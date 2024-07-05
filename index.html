@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/logo.png">
     <link rel="stylesheet" href="./styles.css">
     <!-- google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +28,7 @@
             </div>
             <!-- search or card icon -->
             <div class="search-card w-50 h-14 flex justify-center items-center sm:hidden">
-                <div class="search-icon w-10 h-14 flex justify-center items-center">
+                <div class="search-icon_mobile w-10 h-14 flex justify-center items-center">
                     <i class="fa-solid fa-magnifying-glass text-white"></i>
                 </div>
                 <div class="card-icon w-10 h-14 flex justify-center items-center sm:hidden">
@@ -114,7 +115,7 @@
 
         <!-- mobile searchbox -->
          <!-- nend flex -->
-        <div class="search-mobile w-full h-10 justify-center items-center relative z-10 hidden sm:hidden">
+        <div class="search-mobile w-full h-10 justify-center items-center relative z-10 mt-4 hidden sm:hidden">
             <div class="search w-11/12 h-8 border border-black ml-2 flex justify-center items-center bg-white">
                 <input type="text" class="w-full h-full outline-none border-none px-5" placeholder="Search..">
                  <i class="fa-solid fa-magnifying-glass pr-5"></i>
@@ -804,15 +805,15 @@
         <!-- end monitor -->
        
         <!-- UPS -->
-        <li class="group sm:inline-block li_UPS relative">
+        <li class="sm:inline-block li_UPS relative">
             <a href="#" class="flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm hover:text-hover-color">
                 <p>UPS</p>
                 <div class="sm:hidden">
                     <i class="fa-solid fa-plus"></i>
                 </div>
             </a>
-            <ul class="ul_UPS border-2 border-t-hover-color sm:group-hover:block ul_Portable_HDD w-[200px] bg-white sm:absolute relative hidden">
-                <li class="block"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">
+            <ul class="ul_UPS border-t-2 border-t-hover-color sm:group-hover:block ul_Portable_HDD w-[200px] bg-white sm:absolute relative hidden">
+                <li class="group block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">
                     <p>Online UPS</p>
                     <!-- arrow icon -->
                     <div class="arrow hidden sm:block">
@@ -822,8 +823,42 @@
                         <i class="fa-solid fa-plus text-hover-color group-hover:text-white"></i>
                     </div>
                 </a>
+                  <ul class="w-[200px] bg-white sm:group-hover:block text-sm font-semibold sm:absolute relative top-0 left-[200px] hidden">
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">MaxGreen</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">SANTAK</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">Tecnoware</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">Digital X</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">APOLLO</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">EnSmart</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">MARSRIVA</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">KSTAR</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">Power Pac</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">Power Guard</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">Vertiv</a></li>
+                    <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">APC</a></li>
+                  </ul>
                 </li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Offine UPS</a></li>
+                <li class="group block relative"><a href="#" class=" w-full flex justify-between items-center px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">
+                    
+                    <p>Offline UPS</p>
+                    <!-- arrow icon -->
+                    <div class="arrow hidden sm:block">
+                        <i class="fa-solid fa-arrow-right text-hover-color group-hover:text-white"></i>
+                    </div>
+                    <div class="arrow sm:hidden">
+                        <i class="fa-solid fa-plus text-hover-color group-hover:text-white"></i>
+                    </div>
+                </a>
+                    <ul class="w-[200px] bg-white sm:group-hover:block text-sm font-semibold sm:absolute relative top-0 left-[200px] hidden">
+                        <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">MaxGreen</a></li>
+                     
+                        <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">Digital X</a></li>
+                        <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">APOLLO</a></li>
+                        <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">MARSRIVA</a></li>
+                        <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">KSTAR</a></li>
+                        <li class="block"><a href="#" class="block py-1 px-4 hover:bg-hover-color hover:text-white">Power Guard</a></li>
+                      </ul>
+                </li>
                 <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Mini UPS</a></li>
                 <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">UPS Battery</a></li>
                 <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Voltage Stabilizer</a></li>
@@ -865,7 +900,7 @@
         <!-- end Mobile -->
       
         <!-- Tablet -->
-        <li class="group sm:inline-block li_tablet relative">
+        <li class="sm:inline-block li_tablet relative">
             <a href="#" class="w-full flex justify-between items-center py-1 sm:py-3  px-1.5 font-semibold text-sm hover:text-hover-color">
                 <p>tablet</p>
                 <div class="sm:hidden">
@@ -873,9 +908,21 @@
                 </div>
             </a>
             <ul class="border-t-2 border-t-hover-color sm:group-hover:block ul_tablet w-[200px] bg-white sm:absolute relative hidden">
-                <li class="group block relative"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">Graphics tablet</a>
-                <ul class="group-hover:block bg-red-300 ul-graphics_tablet w-[200px] relative sm:absolute left-[200px] top-0">
-                    <li class="block"><a href="#" class="block px-4 py-1 text-sm font-semibold hover:text-white hover:bg-hover-color">samglaung</a></li>
+                <li class="group block relative"><a href="#" class="w-full flex justify-between items-center px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">
+                    <p>Graphics tablet</p>
+                    <!-- arrow icon -->
+                    <div class="arrow hidden sm:block">
+                        <i class="fa-solid fa-arrow-right text-hover-color group-hover:text-white"></i>
+                    </div>
+                    <div class="arrow sm:hidden">
+                        <i class="fa-solid fa-plus text-hover-color group-hover:text-white"></i>
+                    </div> 
+                </a>
+                <ul class="sm:group-hover:block bg-white ul-graphics_tablet w-[200px] relative sm:absolute sm:left-[200px] top-0 hidden">
+                    <li class="block"><a href="#" class="block px-4 py-1 text-sm font-semibold hover:text-white hover:bg-hover-color">XP-PEN</a></li>
+                    <li class="block"><a href="#" class="block px-4 py-1 text-sm font-semibold hover:text-white hover:bg-hover-color">Huion</a></li>
+                    <li class="block"><a href="#" class="block px-4 py-1 text-sm font-semibold hover:text-white hover:bg-hover-color">Wacom</a></li>
+                    <li class="block"><a href="#" class="block px-4 py-1 text-sm font-semibold hover:text-white hover:bg-hover-color">VEIKK</a></li>
                 </ul>
                 </li>
                 <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">i Pad</a></li>
@@ -944,7 +991,6 @@
             </ul>
         </li>
         <!-- end camra -->
-
       </ul>
     </nav>
 </header>
