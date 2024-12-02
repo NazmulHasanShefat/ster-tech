@@ -15,6 +15,7 @@
 </head>
 <body class="bg-slate-100">
     <header class="w-full h-max">
+        <!-- nav 1  -->
         <nav class="w-full h-14 sm:h-20 bg-primary-color sm:flex justify-center items-center">
         <!-- desktop nav -->
         <div class="nav-continer w-full h-14 flex justify-between items-center py-3">
@@ -48,44 +49,44 @@
                 </div>
               </div>
               <!-- desktop top nav menu  mobile bottom nav-->
-              <div class="search-desktop fixed bottom-0 sm:static w-full sm:block sm:w-[790px] h-20 bg-black z-10">
+              <div class="search-desktop fixed bottom-0 sm:static w-full sm:block sm:w-[790px] h-20 bg-black z-10 rounded-t-3xl">
                  <div class="all-menus w-full h-full flex justify-center items-cen1er">
                     <!-- nav 1 -->
-                    <div class="munu-1 w-1/4 h-full py-2 flex flex-col sm:flex-row justify-center items-center text-white">
+                    <div class="munu-1 w-1/4 h-full py-2 flex flex-col sm:flex-row justify-center items-center text-white group">
                         <div class="w-full sm:w-1/4 h-max sm:h-full icon-nav flex justify-center items-center">
-                            <i class="fa-solid fa-gift mt-2 text-white sm:text-hover-color cursor-pointer"></i>
+                            <i class="fa-solid fa-gift mt-2 text-white sm:text-hover-color cursor-pointer text-[20px]"></i>
                         </div>
                         
                         <div class="w-full sm:w-2/4 h-max sm:h-full nav-name flex items-center justify-center text-center sm:text-left">
                             <div>
-                                <div class="main-name cursor-pointer"><h1>offers</h1></div>
+                                <div class="main-name cursor-pointer"><h1 class="text-[13px] lg:text-sm text-botom-nav-mobile group-hover:text-white">Hot deals</h1></div>
                                 <div class="sub-name text-text-color-2 cursor-pointer text-xs hidden sm:block">Letest Offers</div>
                             </div>
                         </div>
                     </div>
                     <!-- end -->
                      <!-- nav 2 -->
-                    <div class="munu-2 w-1/4 h-full flex flex-col sm:flex-row justify-center items-center">
+                    <div class="munu-2 w-1/4 h-full flex flex-col sm:flex-row justify-center items-center group">
                         <div class="w-full sm:w-1/4 h-max sm:h-full icon-nav flex justify-center items-center">
-                            <i class="animate-pulse fa-solid fa-bolt mt-2 text-white sm:text-hover-color cursor-pointer"></i>
+                            <i class="animate-pulse fa-solid fa-bolt mt-2 text-white sm:text-hover-color cursor-pointer text-[20px]"></i>
                         </div>
                         
                         <div class="w-full sm:w-2/4 h-max sm:h-full nav-name flex items-center justify-center text-center sm:text-left">
                             <div>
-                                <div class="main-name cursor-pointer text-white"><h1>offers</h1></div>
+                                <div class="main-name cursor-pointer text-white"><h1 class="text-[13px] lg:text-sm text-botom-nav-mobile group-hover:text-white">offers</h1></div>
                                 <div class="sub-name text-text-color-2 cursor-pointer text-xs hidden sm:block">Letest Offers</div>
                             </div>
                         </div>
                     </div>
                     <!-- nav 3 -->
-                    <div class="munu-3 w-1/4 h-full flex sm:flex flex-col sm:flex-row justify-center items-center">
+                    <div class="munu-3 w-1/4 h-full flex sm:flex flex-col sm:flex-row justify-center items-center group">
                         <div class="w-1/4 h-max sm:h-full icon-nav flex justify-center items-center">
-                            <i class="fa-solid fa-user mt-2 text-white sm:text-hover-color cursor-pointer"></i>
+                            <i class="fa-solid fa-user mt-2 text-white sm:text-hover-color cursor-pointer text-[20px]"></i>
                         </div>
                         
                         <div class="w-3/4 h-max sm:h-full nav-name flex items-center justify-center sm:justify-start">
                             <div>
-                                <div class="main-name text-white cursor-pointer"><h1>Acount</h1></div>
+                                <div class="main-name text-white cursor-pointer"><h1 class="text-[13px] lg:text-sm text-botom-nav-mobile group-hover:text-white">Acount</h1></div>
                                 <div class="sub-name text-text-color-2 cursor-pointer text-xs"><span class="transition duration-300 hover:text-hover-color hidden sm:inline-block">Register &</span> <span class=" transition duration-300 hover:text-hover-color hidden sm:inline-block">login</span></div>
                             </div>
                         </div>
@@ -94,12 +95,12 @@
                     <div class="munu-4 w-1/4 h-full flex justify-center items-center px-4">
                          <button class="transition ease-in-out delay-150 w-32 rounded-sm h-12 text-white bg-gradient-to-r from-blue-400 to-blue-600 hover:opacity-75 duration-500 hidden sm:block">PC Builder</button>
                          <!-- mobile -->
-                         <div class="sm:hidden w-full h-full flex items-center">
-                            <div class="pc-container w-full h-max">
+                         <div class="sm:hidden w-full h-full flex items-center group">
+                            <div class="pc-container w-full h-max mt-2">
                                 <div class="pc-icon flex justify-center items-center">
-                                    <i class="fa-solid fa-desktop text-white"></i>
+                                    <i class="fa-solid fa-desktop text-white text-[20px]"></i>
                                 </div>
-                                <div class="pc-text text-white flex justify-center items-center">
+                                <div class="pc-text flex justify-center items-center text-[13px] text-botom-nav-mobile group-hover:text-white">
                                     <p>pc builder</p>
                                 </div>
                             </div>
@@ -115,9 +116,9 @@
 
         <!-- mobile searchbox -->
          <!-- nend flex -->
-        <div class="search-mobile w-full h-10 justify-center items-center relative z-10 mt-4 hidden sm:hidden">
+        <div class="search-mobile w-full h-10 justify-center items-center relative z-10 mt-4 sm:hidden">
             <div class="search w-11/12 h-8 border border-black ml-2 flex justify-center items-center bg-white">
-                <input type="text" class="w-full h-full outline-none border-none px-5" placeholder="Search..">
+                <input type="text" class="m-s-box w-full h-full outline-none border-none px-5" placeholder="Search.." autofocus>
                  <i class="fa-solid fa-magnifying-glass pr-5"></i>
             </div>
         </div>
@@ -950,19 +951,19 @@
                 </div>
             </a>
             <ul class="border-2 border-t-hover-color sm:group-hover:block ul_tablet w-[200px] bg-white sm:absolute relative hidden">
-                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">Graphics tablet</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">i Pad</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Lenovo</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Samsung</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HONOR</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Realmi</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Xiaomi</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Walton</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">HUAWEI</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Amazon</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Google</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Stylus</a></li>
-                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Show All Tablet</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:bg-hover-color hover:text-white text-sm hover:underline">Projector</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Cartridge</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Ink Bottle</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">PA System</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Interactive Flat Panel</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Ribbon</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Video Wall</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Printer Drum</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Signage</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Scanner</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Kiosk</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Barcode Scanner</a></li>
+                <li class="block"><a href="#" class="block px-5 py-1 hover:underline hover:bg-hover-color hover:text-white text-sm">Printer</a></li>
             </ul>
         </li>
         <!-- end Office Equipment -->
@@ -991,6 +992,7 @@
             </ul>
         </li>
         <!-- end camra -->
+         
       </ul>
     </nav>
 </header>

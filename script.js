@@ -2,15 +2,16 @@
 // mobile search
 let search_icon_mobile = document.querySelector(".search-icon_mobile");
 let search_box_mobile = document.querySelector(".search-mobile");
- 
-search_icon_mobile.addEventListener("click",()=>{
-    search_box_mobile.classList.toggle("hidden");
-})
-
-
  // If media query matches
 let humberger = document.querySelector(".menu-icon");
 let main_menu = document.querySelector(".nav-2");
+
+let m_s_box = document.querySelector(".m-s-box");
+
+search_icon_mobile.addEventListener("click",()=>{
+    search_box_mobile.classList.toggle("open-mobile-search");
+    m_s_box.focus();
+})
 // sublist 
 // list 1 
 let liDesktop = document.querySelector(".li-desktop a");
@@ -33,7 +34,7 @@ let ul_portable = document.querySelector(".ul-portable-pc");
 
 // humberger
 humberger.addEventListener("click",()=>{
-    main_menu.classList.toggle("hidden");
+    main_menu.classList.toggle("open-main-nav")
 })
 // list toggle 
 liDesktop.addEventListener("click",()=>{
